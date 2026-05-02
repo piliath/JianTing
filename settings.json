@@ -1,0 +1,31 @@
+{
+  "api_key": "",
+  "context_count": 10,
+  "context_strategy": {
+    "max_token_limit": 2000,
+    "enable_summary": true,
+    "summary_model": "qwen-plus"
+  },
+  "models": {
+    "qwen": {
+      "enabled": true,
+      "model_id": "qwen-plus"
+    },
+    "glm": {
+      "enabled": false,
+      "model_id": "glm-5"
+    },
+    "kimi": {
+      "enabled": true,
+      "model_id": "kimi-k2-thinking"
+    },
+    "deepseek": {
+      "enabled": true,
+      "model_id": "deepseek-v3.2"
+    },
+    "minimax": {
+      "enabled": true,
+      "model_id": "MiniMax-M2.5"
+    }
+  }
+}
